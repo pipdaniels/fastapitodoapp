@@ -3,9 +3,9 @@ from models import Todo
 app = FastAPI(
     title='Todo App',
     description='The test todo app project in seeing how the fast api framework works',
-    docs_url='/documenation',
+    docs_url='/documentation',
     root_path='/api/v1',
-    version='1.0.0'
+    version='1.0.0',
     )
 
 
